@@ -1,7 +1,7 @@
 import React from 'react';
 import './experiance.css';
 import { ImHtmlFive2 } from 'react-icons/im';
-import { GrCss3 } from 'react-icons/gr';
+import { DiCss3 } from 'react-icons/di';
 import { TbBrandJavascript } from 'react-icons/tb';
 import { BsBootstrap } from 'react-icons/bs';
 import { SiReact } from 'react-icons/si';
@@ -14,6 +14,7 @@ import { TbBrandPython } from 'react-icons/tb';
 const experiance = () => {
   return (
     <section id="experience">
+      <br />
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container experience__container">
@@ -24,36 +25,46 @@ const experiance = () => {
               <span className="experience__details-icon">
                 <ImHtmlFive2 />
               </span>
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
-                <GrCss3 />
+                <DiCss3 />
               </span>
-              <h4>CSS</h4>
-              <small className="text-light">Intermediate</small>
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <TbBrandJavascript />
               </span>
-              <h4>JavaScript</h4>
-              <small className="text-light">Intermediate</small>
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <BsBootstrap />
               </span>
-              <h4>BootStrap</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>BootStrap</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <SiReact />
               </span>
-              <h4>React.js</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>React.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
@@ -64,43 +75,55 @@ const experiance = () => {
               <span className="experience__details-icon">
                 <DiNodejsSmall />
               </span>
-              <h4>Node.js</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>Node.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <SiMongodb />
               </span>
-              <h4>Mongo DB</h4>
-              <small className="text-light">Intermediate</small>
+              <div>
+                <h4>Mongo DB</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <SiMysql />
               </span>
-              <h4>Mysql</h4>
-              <small className="text-light">Intermediate</small>
+              <div>
+                <h4>Mysql</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <SiJava />
               </span>
-              <h4>Java</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <SiSpring />
               </span>
-              <h4>Spring</h4>
-              <small className="text-light">Intermediate</small>
+              <div>
+                <h4>Spring</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <span className="experience__details-icon">
                 <TbBrandPython />
               </span>
-              <h4>Python</h4>
-              <small className="text-light">Basic</small>
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Basic</small>
+              </div>
             </article>
           </div>
         </div>

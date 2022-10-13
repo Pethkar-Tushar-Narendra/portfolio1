@@ -1,4 +1,5 @@
 import './App.css';
+import { useNavigate } from 'react';
 import Header from './components/Headers/Header';
 import Nav from './components/Nav/Nav';
 import About from './components/about/About';
@@ -10,6 +11,12 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
+  let count = 0;
+  onclick = (count) => {
+    if (count == 0) {
+      // navigate('/#home');
+    }
+  };
   return (
     <>
       <Header />

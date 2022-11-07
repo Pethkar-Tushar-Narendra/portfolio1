@@ -22,24 +22,22 @@ const About = () => {
             <article className="about__card">
               <BsTrophy className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small> &#60;1 Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <h5>Highest Eduction</h5>
+              <small>PG-DAC (C-DAC)</small>
             </article>
             <article className="about__card">
               <SiReact className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>5+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            culpa ducimus officia totam suscipit eum. Quis, et? Adipisci ullam
-            fugit fuga tempore itaque dolor! Esse dolorem doloremque facere
-            officia animi!
+            Passionate towards automation, programming and designing specially
+            on Computers and Robots.
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk

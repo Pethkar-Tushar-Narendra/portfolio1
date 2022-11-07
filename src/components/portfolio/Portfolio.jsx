@@ -1,11 +1,9 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/e-com.webp';
-import IMG2 from '../../assets/1.webp';
-import IMG3 from '../../assets/2.webp';
-import IMG4 from '../../assets/3.webp';
-import IMG5 from '../../assets/4.webp';
-import IMG6 from '../../assets/5.webp';
+import IMG1 from '../../assets/Industrial robot image.png';
+import IMG2 from '../../assets/Mern Webapplication.png';
+import IMG3 from '../../assets/robotic arm prototype.png';
+import IMG4 from '../../assets/Resume Website.png';
 const portfolio = () => {
   return (
     <section id="portfolio">
@@ -15,6 +13,28 @@ const portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio_item-image">
             <img src={IMG1} alt="portfolio image" />
+          </div>
+          <h3>Mahindra XUV300 Cowl Panel</h3>
+          <div className="portfolio_item-cta">
+            <a
+              href="https://drive.google.com/drive/folders/147sV7cpY4e-Luu_5zO64RNkPW8pPIDkw"
+              className="btn"
+              target="_blank"
+            >
+              Old Oper.
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/147sV7cpY4e-Luu_5zO64RNkPW8pPIDkw"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              New Oper.
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio_item-image">
+            <img src={IMG2} alt="portfolio image" />
           </div>
           <h3>E-Commerse Web Application</h3>
           <div className="portfolio_item-cta">
@@ -36,28 +56,22 @@ const portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio_item-image">
-            <img src={IMG2} alt="portfolio image" />
-          </div>
-          <h3>E-Commerse Web Application</h3>
-          <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
-              GitHub
-            </a>
-            <a href="" className="btn btn-primary" target="_blank">
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio_item-image">
             <img src={IMG3} alt="portfolio image" />
           </div>
-          <h3>E-Commerse Web Application</h3>
+          <h3>6-Axes Robotic Arm Prototype</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/Pethkar-Tushar-Narendra"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://drive.google.com/drive/folders/19qoPJiELS_Z6VXdjwcw0Q6ACl2UFiOiv"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
@@ -66,17 +80,25 @@ const portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG4} alt="portfolio image" />
           </div>
-          <h3>E-Commerse Web Application</h3>
+          <h3>Resume Website</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/Pethkar-Tushar-Narendra"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
-            <a href="" className="btn btn-primary" target="_blank">
+            <a
+              href="https://tushar-pethkar-resume.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        {/* <article className="portfolio__item">
           <div className="portfolio_item-image">
             <img src={IMG5} alt="portfolio image" />
           </div>
@@ -103,7 +125,7 @@ const portfolio = () => {
               Live Demo
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );

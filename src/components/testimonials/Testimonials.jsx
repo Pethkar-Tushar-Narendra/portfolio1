@@ -1,8 +1,8 @@
 import React from 'react';
 import './testimonial.css';
-import avatar1 from '../../assets/avatar1.jpg';
-import avatar2 from '../../assets/avatar2.jpg';
-import avatar3 from '../../assets/avatar3.jpg';
+import avatar1 from '../../assets/jbm.png';
+import avatar2 from '../../assets/cdac.jpeg';
+import avatar3 from '../../assets/default profile picture.jpg';
 import avatar4 from '../../assets/avatar4.webp';
 
 import { Pagination } from 'swiper';
@@ -29,40 +29,33 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={avatar1} alt="client avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">JBM Auto LTD</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            laudantium hic nihil dolorum delectus vitae?
+            Done Project successfully on very advanced and complex robotic
+            process adn optimized it. He is a Quick learner for any new
+            technologies and finding solutions.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={avatar2} alt="client avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">CDAC Bangalore</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            laudantium hic nihil dolorum delectus vitae?
+            Successfully completed training with project and quick learner with
+            unfamiliar technologies.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={avatar3} alt="client avatar" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Akash Hingne JBM</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            laudantium hic nihil dolorum delectus vitae?
-          </small>
-        </SwiperSlide>
-        <SwiperSlide className="testimonial">
-          <div className="client__avatar">
-            <img src={avatar4} alt="client avatar" />
-          </div>
-          <h5 className="client__name">Ernest Achiever</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            laudantium hic nihil dolorum delectus vitae?
+            With some of our guidance he has learned evrything which is required
+            to get into problem and solve it. I must appreciate his work in
+            industry as well as by making prototype of robotic arm same in
+            industry.
           </small>
         </SwiperSlide>
       </Swiper>
